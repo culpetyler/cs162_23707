@@ -1,5 +1,7 @@
 class Motherboard:
-
+    """
+    The motherboard class is an object containing various attributes related to a motherboard.
+    """
     def __init__( self, name = str, cpu_socket = str, ram_slots = int, ram_max = int, pci_express_slots = int, sata_slots = int, m2_slots = int ):
         """
         Initialize the motherboard class.
