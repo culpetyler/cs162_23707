@@ -19,7 +19,6 @@ class Motherboard:
         self.pci_express_slots = pci_express_slots
         self.sata_slots = sata_slots
         self.m2_slots = m2_slots
-        print(self.__dict__)
 
     def add_cpu( self, cpu = str, socket_type = str, ram_type = str, ram_speed = int ):
         """
